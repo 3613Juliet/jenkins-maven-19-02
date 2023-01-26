@@ -30,8 +30,16 @@ PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2_HOME:$M2
 
 export PATH
 =======================================================================
+delete the previous path
+use line #5 to find the java home link
+copy the 2 line and paste into the .bash_profile using the nano editor
+replace the link at the JAVA HOME by this new link, 
+save and exit the nano editor
+
 ==> source .bash_profile
-==> echo $PATH
+==> echo $PATH - include in its link the java and maven files.
+Get maven version by mvn --version
+
 3. Install Jenkins for java11
 
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
