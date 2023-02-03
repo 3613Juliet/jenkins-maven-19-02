@@ -30,3 +30,9 @@ service sshd reload/service sshd restart
 su jenkinsadmin 
 
 ssh 'jenkinsadmin@172.31.81.110'
+
+Continue with the steps below:
+===============================
+ssh -- ssh-keygen == public + prviate
+public key to be shared ssh-copy-id username@ip-address
+whenerver other machne want to connect == public and master will evaluvate with pvt key 
